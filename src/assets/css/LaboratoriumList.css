@@ -1,0 +1,157 @@
+/* Mobile */
+@media (max-width: 767px) {
+  .lab__list__item {
+    margin: 0 0 20px 0;
+  }
+
+  .lab__list__item__image img {
+    object-fit: cover;
+  }
+
+  .lab__list__item__description {
+    padding: 10px;
+  }
+
+  .lab__list__item__description__button {
+    display: flex;
+  }
+
+  .price {
+    font-size: 16px;
+  }
+
+  .button {
+    font-size: 6px;
+    padding: 3px 10px;
+  }
+
+  .info {
+    font-size: 9px;
+  }
+
+  .addressTwo,
+  .rating {
+    font-size: 12px;
+  }
+}
+
+/* Desktop & Tablet */
+@media (min-width: 768px) {
+  .lab__list__item {
+    margin: 0 0 30px 30px;
+  }
+
+  .lab__list__item__description {
+    width: 50%;
+    padding: 20px;
+  }
+
+  .price {
+    font-size: 22px;
+  }
+
+  .button {
+    font-size: 12px;
+    padding: 6px 20px;
+  }
+
+  .info {
+    font-size: 11px;
+  }
+
+  .addressTwo,
+  .rating {
+    font-size: 14px;
+  }
+}
+
+/* Global */
+.lab__list__item {
+  display: flex;
+  flex-direction: row;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 4px 6px 12px 0 rgb(0 0 0 / 6%);
+}
+
+.lab__list__item__image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px 0 0 8px;
+}
+
+.lab__list__item__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid #ddd;
+}
+
+.lab__list__item__price {
+  display: grid;
+  place-content: center;
+  width: 24%;
+  padding: 20px;
+}
+
+.lab__list__description__address {
+  display: flex;
+  flex-direction: column;
+  color: #212529;
+}
+
+.lab__list__description__rating {
+  display: flex;
+  color: #212529;
+}
+
+.fa-star {
+  color: #f8a70e;
+}
+
+.addressOne {
+  font-weight: bold;
+}
+
+#reschedule__info {
+  margin: 0 10px;
+}
+
+.price {
+  font-weight: bold;
+  color: #ff7900;
+}
+
+.price__discount__item {
+  display: inline-block;
+}
+
+.price__discount__item:first-child {
+  color: #d91d1d;
+  font-weight: bold;
+  font-size: 11px;
+  padding: 3px 6px;
+  background-color: #ffe5e5;
+}
+
+.price__discount__item:last-child {
+  font-size: 14px;
+  text-decoration: line-through;
+}
+
+.button {
+  border-radius: 20px;
+  border: none;
+  text-transform: uppercase;
+  margin: 0 10px 0 0;
+  color: #ffffff;
+  outline: 0;
+}
+
+#buttonOne {
+  background-color: #32cfa4;
+}
+
+#buttonTwo {
+  background-color: #1986d9;
+}

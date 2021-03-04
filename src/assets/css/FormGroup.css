@@ -1,0 +1,24 @@
+#selectProvinsi,
+#selectKotaKabupaten,
+#inputPaketJenisPemeriksaan {
+  padding-left: 40px;
+}
+
+.font-sm {
+  font-size: 11px;
+}
+
+.custom-select-input-group {
+  position: relative;
+}
+
+.custom-select-input-group__icon {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  bottom: 0;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

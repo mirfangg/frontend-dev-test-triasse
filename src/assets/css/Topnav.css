@@ -1,0 +1,38 @@
+/* Mobile */
+@media (max-width: 767px) {
+  .topnav {
+    display: none;
+  }
+}
+
+/* Desktop & Tablet */
+@media (min-width: 768px) {
+  .topnav {
+    background-color: #f4f6f7;
+    text-align: right;
+    padding: 10px 30px;
+  }
+
+  .topnav__item {
+    display: inline-block;
+    color: #494c64;
+    font-size: 11px;
+    margin-right: 40px;
+    text-decoration: none;
+  }
+
+  .topnav__icon {
+    display: inline-block;
+    width: 23px;
+    height: 16px;
+    margin-right: 8px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .topnav_text {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}

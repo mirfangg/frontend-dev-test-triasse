@@ -1,0 +1,159 @@
+/* Mobile */
+@media (max-width: 767px) {
+  .checkupcard__header__image {
+    display: none;
+  }
+
+  .checkupcard__header__description {
+    display: none;
+  }
+
+  .checkupcard__header__title {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+
+  .selected__checkup__container {
+    width: 100%;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+
+  #findLabBtn {
+    width: 100%;
+  }
+}
+
+/* Desktop & Tablet */
+@media (min-width: 768px) {
+  .checkupcard__header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .checkupcard__header__image {
+    right: 65px;
+  }
+
+  .checkupcard__header__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+
+  .checkupcard__body__container {
+    padding: 20px 70px;
+  }
+
+  .selected__checkup__container {
+    width: 75%;
+  }
+
+  .form-row {
+    flex-direction: unset;
+  }
+
+  #findLabBtn {
+    padding: 6px 46px;
+    float: right;
+  }
+}
+
+/* High-res Desktop */
+@media (min-width: 1400px) {
+  .checkupcard__body__container {
+    padding: 20px 180px;
+  }
+
+  .checkupcard__header__image {
+    right: 200px;
+  }
+}
+
+/* Global */
+.checkupcard__header {
+  border-bottom: none;
+  background-color: #eff7ff;
+  position: relative;
+  border-radius: 0.5rem 0.5rem 0 0 !important;
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+.checkupcard__header__image {
+  position: absolute;
+  bottom: 0;
+}
+
+.checkup__search {
+  margin-top: 0;
+  padding-bottom: 0 !important;
+  border-bottom: 3px solid #1887d9;
+}
+
+.btn-outline-success {
+  margin: 3px;
+  background-color: #d8fff0 !important;
+  border-color: #afedd5 !important;
+  color: #0c5237 !important;
+}
+
+.btn-outline-success > .close {
+  margin-top: 4px;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  line-height: 14px;
+  color: #ffffff;
+  background-color: #0c5237;
+}
+
+.btn-outline-success > .close::before {
+  position: absolute;
+  content: "";
+  width: 70%;
+  height: 2px;
+  background-color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.btn-outline-success > .close::after {
+  position: absolute;
+  content: "";
+  width: 70%;
+  height: 2px;
+  background-color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.btn-secondary {
+  font-size: 14px;
+  background-color: #f0f0f0 !important;
+  color: #757575 !important;
+  border-color: #f0f0f0 !important;
+}
+
+#findLabBtn {
+  font-weight: bold;
+  color: #ffffff !important;
+  background-color: #ff7900 !important;
+}
+
+.selected__checkup__container {
+  margin-bottom: 5px;
+}
+
+/* .card-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+} */
